@@ -1,0 +1,551 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol, ul
+{
+    list-style: none;
+}
+blockquote, q
+{
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*CSS RESET END__________________________________________________________________________________________________________________________________*/
+/*ALL*/
+*
+{
+    line-height: 120%;
+    text-align: justify;
+}
+/*BODY*/
+body
+{
+    background: white;
+    background: #FFFFFF url('pics/black_pattern.jpg') repeat center fixed;
+}
+/*CONTAINER*/
+#container
+{
+    width: 1200px;
+    margin: 10px auto;
+}
+/*HEADER*/
+header
+{
+    width: 1200px;
+    height: 100px;
+    background-image: url(pics/quizlogo.png);
+    background-repeat: no-repeat;
+}
+/* NAVIGATION */
+#nav, #quizmenu
+{
+    height: 100px;
+}
+#loginmenu
+{
+    height: 50px;
+}
+#logoutform
+{
+    float: right;
+}
+#nav
+{
+    float: right;
+}
+#loginmenu, #quizendmenu
+{
+    width: 775px;
+}
+#categories
+{
+    float: left;
+}
+#quizendmenu
+{
+    margin-top: 40px;
+}
+/*MENUBUTTONS (http://www.dynamicdrive.com/style/csslibrary/item/css3_gradient_menu_buttons/)*/
+#loginmenu a, #categories a, #logon a, #buttons a, #profilebuttons a, #sortbuttons a, #questiontext a, #nextbutton a, #quizendmenu a, #loginform .formbutton, #logoutform .formbutton
+{
+    display: block;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+#loginmenu a, #categories a, #logon a, #buttons a, #profilebuttons a, #sortbuttons a, #questiontext a, #nextbutton a, #quizendmenu a
+{
+     height: 20px;
+}
+#loginform .formbutton, #logoutform .formbutton
+{
+    height: 34px;
+    margin-left: 290px;
+}
+#loginform .formbutton
+{
+     margin-top: 15px;
+}
+#logoutform .formbutton
+{
+     margin-top: 10px;
+}
+#loginmenu a:hover, #categories a:hover, #logon a:hover, #loginform .formbutton:hover, #logoutform .formbutton:hover
+{
+    background: -moz-linear-gradient(center top, #7ad690, #3ec05c 25%, #298a40 45%, #3ec05c 85%, #7ad690);
+    background: -webkit-gradient(linear, center top, center bottom, from(#7ad690), color-stop(25%, #3ec05c), color-stop(45%, #298a40), color-stop(85%, #3ec05c), to(#7ad690));
+    background-color: #298a40;
+}
+#loginmenu .active a, #categories .active a, #logon .active a
+{
+    background: -moz-linear-gradient(center top, #7ad690, #3ec05c 25%, #298a40 45%, #3ec05c 85%, #7ad690);
+    background: -webkit-gradient(linear, center top, center bottom, from(#7ad690), color-stop(25%, #3ec05c), color-stop(45%, #298a40), color-stop(85%, #3ec05c), to(#7ad690));
+    background-color: #298a40;
+}
+#buttons a, #profilebuttons a, #sortbuttons a, #questiontext a, #nextbutton a, #quizendmenu a
+{
+    padding: 10px 0px 10px 0px;
+    background-color: #817dda;
+    color: #000000;
+    -webkit-box-shadow: 3px 3px 3px #333;
+    -moz-box-shadow: 3px 3px 3px #333;
+    box-shadow: 3px 3px 3px #333;
+}
+#buttons a:hover, #profilebuttons a:hover, #sortbuttons a:hover, #questiontext a:hover, #nextbutton a:hover, #formsearch a:hover, #quizendmenu a:hover
+{
+    background-color: #6cd7af;
+}
+/*Loginmenu, categories, logon (http://www.dynamicdrive.com/style/csslibrary/item/css3_gradient_menu_buttons/)*/
+#loginmenu li, #categories, #categories li, #logon li, #quizendmenu li, #loginform .formbutton, #logoutform .formbutton
+{
+    width: 150px;
+}
+#loginmenu li, #categories li, #quizendmenu li
+{
+    margin-top: 5px;
+}
+#loginmenu li, #logon li, #quizendmenu li
+{
+    margin-left: 5px;
+    float: right;
+}
+#loginmenu a, #categories a, #logon a, #loginform .formbutton, #logoutform .formbutton
+{
+    border: 2px solid gray;
+    background: -moz-linear-gradient(center top, #a4ccec, #72a6d4 25%, #3282c2 45%, #357cbd 85%, #72a6d4);
+    background: -webkit-gradient(linear, center top, center bottom, from(#a4ccec), color-stop(25%, #72a6d4), color-stop(45%, #3282c2), color-stop(85%, #357cbd), to(#72a6d4));
+    background-color: #3282c2;
+    color: #FFFFFF;
+    font-family: "Cooper Std Black" , Serif;
+}
+#loginmenu a, #categories a, #logon a
+{
+     padding: 5px 7px 5px 7px;
+}
+#loginform .formbutton, #logoutform .formbutton
+{
+    padding: 0px 7px 5px 7px;
+}
+#logon a
+{
+    margin-top: 65px;
+}
+/*Buttons, Sortbuttons, Profilebuttons, Questiontext, Nextbutton*/
+#buttons
+{
+    width: 500px;
+}
+#sortbuttons
+{
+    width: 320px;
+    height: 60px;
+}
+#profilebuttons
+{
+    width: 600px;
+    height: 65px;
+    margin: 0px 5px 0px 5px;
+}
+#buttons a, #profilebuttons a
+{
+    margin-left: 10px;
+    float: right;
+}
+#buttons a
+{
+    width: 150px;
+    margin-top: 10px;
+}
+#sortbuttons a
+{
+    float: right;
+    width: 150px;
+    margin: 0px 10px 0px 0px;
+}
+#profilebuttons a
+{
+    width: 280px;
+    margin-right: 10px;
+}
+#questiontext a, #nextbutton a
+{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/*LINKS*/
+/*Starttext, Quizzes, Answertext*/
+#starttext a, #quizzes a, #answertext a
+{
+    color: Blue;
+}
+#starttext a:hover, #quizzes a:hover, #answertext a:hover
+{
+    color: Purple;
+}
+#starttext a:visited, #quizzes a:visited, #answertext a:visited
+{
+    color: Purple;
+}
+#starttext a:focus, #quizzes a:focus, #answertext a:focus
+{
+    color: Red;
+}
+/*CONTENT*/
+#content, #contentheight
+{
+    width: 960px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    -moz-border-radius: 1.6em;
+    -webkit-border-radius: 1.6em;
+    border-radius: 1.6em;
+    -moz-box-shadow: inset 0 0 30px #000000;
+    -webkit-box-shadow: inset 0 0 30px #000000;
+    box-shadow: inset 0 0 30px #000000;
+    margin: 7px 0px 7px 180px;
+    overflow: auto;
+}
+#contentheight
+{
+    height: 430px;
+}
+/*TEXT*/
+#content h1, h2, #contentheight h1, h2
+{
+    font-family: "Cooper Std Black" , Serif;
+    font-weight: bold;
+}
+#content a, #contentheight a, p, #question p, #quiz p, #answertext a, p, #starttext p, #created p, #quizzes p, #commentdiv p, dt, #ratingdiv p, #statdiv p, #statsul
+{
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: bold;
+    line-height: 120%;
+}
+#commentdiv dt
+{
+    font-style: italic;
+    width: 896px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+#commentdiv dd
+{
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: normal;
+    line-height: 120%;
+    font-style: normal;
+    margin-left: 20px;
+}
+#question h1, h2, p, #quiz h1, p, #answertext a, p, #starttext h1, p, #commentdiv h1, p, #ratingdiv h1, p, #statdiv h1, p, #statsul
+{
+    padding: 20px;
+}
+#statsul li
+{
+    padding-top: 10px;
+}
+/*Quizzes*/
+#quizzes
+{
+    margin-top: 15px;
+}
+/*FORMS*/
+#form, #commentform, #ratingform
+{
+    width: 500px;
+}
+#commentform, #ratingform
+{
+    padding: 20px;
+}
+#fieldsetedit, #fieldsetcreate, #fieldsetquiz, #fieldsetcomments, #fieldsetrating
+{
+    width: 500px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 7px 7px #333;
+    -moz-box-shadow: 7px 7px 7px #333;
+    box-shadow: 7px 7px 7px #333;
+    margin: 10px 0px 10px 0px;
+    background-color: #817dda;
+}
+#fieldsetlogon
+{
+    width: 600px;
+    height: 50px;
+}
+#form label, #formlogon label, #formsearch label, #formquiz label, #commentform label
+{
+    width: 170px;
+    display: block;
+    padding-right: 10px;
+    text-align: right;
+    clear: left;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: bold;
+}
+#radiobuttons
+{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: bold;
+}
+#form label, #formlogon label, #formquiz label, #commentform label
+{
+    float: left;
+}
+#formsearch label
+{
+    float: right;
+}
+#formlogon label
+{
+    color: #FFFFFF;
+}
+#form .textbox, #form .textarea, #formlogon .textbox, #formsearch .textbox, #formquiz .textbox, #formquiz .textarea, #formquiz .select, #commentform .textarea, #commentform .textbox
+{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+#form .textbox, #form .textarea, #formquiz .textbox, #formquiz .textarea, #formquiz .select, #commentform .textbox, #commentform .textarea
+{
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+#form .textarea, #formquiz .textarea, #commentform .textarea
+{
+    height: 100px;
+}
+#formlogon .textbox
+{
+    width: 100px;
+    margin-bottom: 5px;
+}
+#form legend, #formquiz legend, #ratingform legend
+{
+    padding: 15px;
+    padding-bottom: 25px;
+    font-family: "Cooper Std Black" , Serif;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#formlogon legend, #formsearch legend, #commentform legend
+{
+    visibility: hidden;
+}
+#formsearch
+{
+    width: 235px;
+    height: 45px;
+    float: right;
+}
+#formsearch .textbox
+{
+    height: 20px;
+}
+#formsearch label
+{
+    width: 65px;
+    height: 20px;
+}
+#formsearch a
+{
+    width: 50px;
+    padding: 3px 0px 3px 17px;
+    display: block;
+    background-color: #817dda;
+    color: #000000;
+    text-decoration: none;
+    -moz-border-radius: 1.6em;
+    -webkit-border-radius: 1.6em;
+    border-radius: 1.6em;
+}
+#ratingform .formbutton, #commentform .formbutton, #regform .formbutton, #editprofileform .formbutton, #createquizform .formbutton
+{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 402px;
+    text-align: center;
+    width: 100px;
+    -webkit-box-shadow: 3px 3px 3px #333;
+    -moz-box-shadow: 3px 3px 3px #333;
+    box-shadow: 3px 3px 3px #333;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 100%;
+    background-color: #817dda;
+    color: #000000;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: bold;
+    line-height: 120%;
+}
+#ratingform .formbutton:hover, #commentform .formbutton:hover, #regform .formbutton:hover, #editprofileform .formbutton:hover, #createquizform .formbutton:hover
+{
+     background-color: #6cd7af;
+}
+.transparent
+{
+    opacity: 0.2;
+    height: 40px;
+    margin-left: 402px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    -webkit-box-shadow: 3px 3px 3px #333;
+    -moz-box-shadow: 3px 3px 3px #333;
+    box-shadow: 3px 3px 3px #333;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-size: 100%;
+    background-color: #817dda;
+    color: #000000;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    font-weight: bold;
+    line-height: 120%;
+}
+.transparent:hover
+{
+    background-color: #817dda;
+}
+/*Profile*/
+#profileleft
+{
+    height: 449px;
+    float: left;
+}
+#profileleft h1
+{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 600px;
+    -webkit-box-shadow: 7px 7px 7px #333;
+    -moz-box-shadow: 7px 7px 7px #333;
+    box-shadow: 7px 7px 7px #333;
+    margin: 0px 5px 0px 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #3282c2;
+}
+#profileright img
+{
+    -webkit-border-radius: 1.6em;
+    -moz-border-radius: 1.6em;
+    border-radius: 1.6em;
+    -webkit-box-shadow: 7px 7px 7px #333;
+    -moz-box-shadow: 7px 7px 7px #333;
+    box-shadow: 7px 7px 7px #333;
+    float: right;
+}
+/*TABLE*/
+#profiletable
+{
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#profiletable td
+{
+    padding: 10px;
+}
+#profiletable td:nth-child(odd)
+{
+    font-weight: bold;
+    font-family: "Cooper Std Black" , Serif;
+    text-align: right;
+}
+#profiletable td:nth-child(even)
+{
+    font-style: normal;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    text-align: left;
+}
+/*FOOTER*/
+footer
+{
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 100%;
+    font-family: "Franklin Gothic" , Sans-Serif;
+    clear: both;
+    background-color: #3282c2;
+    color: #FFFFFF;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: inset 0 0 15px #000000;
+    -webkit-box-shadow: inset 0 0 15px #000000;
+    box-shadow: inset 0 0 15px #000000;
+}
+/*Gömd klass*/
+.hidden
+{
+    display: none;
+}
