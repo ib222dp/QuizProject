@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quizzes>
+  <quiz name="SVENSKAPOLITIKER" url="../slutuppgift/politics/svenskapolitiker.html" created="2014-10-26">
+    <quiznumber>0</quiznumber>
+    <questions>
+      <question>
+        <questionno>1</questionno>
+        <questiontext>Fråga1</questiontext>
+        <questionalternatives>
+          <questionalternative id="1">alt1A</questionalternative>
+          <questionalternative id="2">alt1B</questionalternative>
+          <questionalternative id="3">alt1C</questionalternative>
+          <questionalternative id="4">alt1D</questionalternative>
+        </questionalternatives>
+        <answer>
+          <answercomment>Svar1</answercomment>
+          <sourcelink>http://www.sporcle.com</sourcelink>
+          <sourcetext>källa1</sourcetext>
+        </answer>
+      </question>
+      <question>
+        <questionno>2</questionno>
+        <questiontext>Fråga2</questiontext>
+        <questionalternatives>
+          <questionalternative id="1">alt2A</questionalternative>
+          <questionalternative id="2">alt2B</questionalternative>
+          <questionalternative id="3">alt2C</questionalternative>
+          <questionalternative id="4">alt2D</questionalternative>
+        </questionalternatives>
+        <answer>
+          <answercomment>Svar2</answercomment>
+          <sourcelink>http://www.youtube.com</sourcelink>
+          <sourcetext>Källa2</sourcetext>
+        </answer>
+      </question>
+    </questions>
+    <timesplayed>1</timesplayed>
+    <times0correct>0</times0correct>
+    <timesxcorrectcount>
+      <timesxcorrect>1</timesxcorrect>
+      <timesxcorrect>0</timesxcorrect>
+    </timesxcorrectcount>
+    <ratings>
+      <rating>0</rating>
+      <rating>0</rating>
+      <rating>0</rating>
+      <rating>0</rating>
+      <rating>0</rating>
+    </ratings>
+    <comments/>
+  </quiz>
+</quizzes>
